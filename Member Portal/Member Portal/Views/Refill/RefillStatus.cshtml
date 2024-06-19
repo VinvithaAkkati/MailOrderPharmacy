@@ -1,0 +1,11 @@
+﻿@model Member_Portal.Models.RefillOrderDetails;
+@{
+    ViewData["Title"] = "Latest Refill Status";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="text-center">
+    <h2>Latest Refill Status</h2>
+</div>
+
+<partial name="RefillDetails" for="@Model" />
